@@ -18,7 +18,7 @@ struct ContentView: View {
                 }
             }.padding(.top, 40)
         }.background(Color.yellow)
-                        .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.all)
     }
 }
 

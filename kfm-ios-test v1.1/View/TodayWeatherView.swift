@@ -39,7 +39,7 @@ struct TodayWeatherView: View {
         .padding()
         .foregroundColor(.white)
         .background(RoundedRectangle(cornerRadius: 20).fill(LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.5), Color.black]), startPoint: .top, endPoint: .bottom))
-                        .opacity(0.3))
+        )
         .shadow(color: Color.white.opacity(0.1), radius: 2, x: -2, y: -2)
         .shadow(color: Color.black.opacity(0.2), radius: 2, x: 2, y: 2)
     }

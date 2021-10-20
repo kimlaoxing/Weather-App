@@ -13,9 +13,9 @@ struct DailyWeather: Codable, Identifiable {
     var weather: [WeatherDetail]
     
     enum CodingKey: String {
-    case dt
-    case temp
-    case weather
+        case dt
+        case temp
+        case weather
     }
     
     init() {

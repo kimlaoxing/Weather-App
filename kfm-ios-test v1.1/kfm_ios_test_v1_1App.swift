@@ -10,7 +10,6 @@ import SwiftUI
 @main
 struct kfm_ios_test_v1_1App: App {
     var body: some Scene {
-        
         WindowGroup {
             ContentView()
         }
